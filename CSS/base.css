@@ -1,3 +1,4 @@
+/* I would live to add buttons to different pages up here in the future */
 
 h1 {
     text-align: center;
@@ -10,9 +11,11 @@ h1 {
     margin-right: auto;
 }
 
+/* This is my logo*/
+
 .center {
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 75%;
     background-color: rgb(201, 218, 217);
 }
 
@@ -37,7 +40,7 @@ h1 {
 table, th, td{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    width: 100%;
+    width: 175%;
     height: auto;
     border: 1px solid rgb(136, 131, 131)
 }
@@ -46,6 +49,8 @@ td, th {
     padding: 10px;
 }
 tr:hover {background-color: aliceblue;}
+
+/* This is an image from my portfolio to show off my work*/
 
 .man {
     display: block;
