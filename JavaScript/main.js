@@ -1,8 +1,7 @@
 <script>
-const NewButton = document.createElement9 ('button');
-NewButton.textContent = 'Click me!';
-document.body.appendChild(newButton);
 
-newButton.addEventListener ('click', () {
-alert ( 'New button clicked!');
+var nav = 
+document.getElementsByTagName("nav")[0];
+body.appendChild(button);
+
 </script>
