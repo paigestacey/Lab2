@@ -1,15 +1,1 @@
-<script>
-
-var nav = 
-document.getElementsByTagName("nav")[0];
-body.appendChild(button);
-
-<myfooter>
-var today=new Date();  
-var h=today.getHours();  
-var m=today.getMinutes();  
-var s=today.getSeconds();  
-document.getElementById('txt').innerHTML=h+":"+m+":"+s; 
-</myfooter> 
-
-</script> 
+&copy; 2023<script>new Date().getFullYear()>2023&&document.write("-"+new Date().getFullYear());</script>, Paige Stacey.
