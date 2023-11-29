@@ -1,14 +1,5 @@
 
-<script> 
-console.console.log(Hello, World");
-
-
-
-
-
-
-
-</script>
+<script type="text/javascript"></script>
 
 
 
