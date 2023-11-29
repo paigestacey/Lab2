@@ -1,17 +1,23 @@
 
 alert('Hello, World!');
 
+var year = new Date().getFullYear();
+var date = `&copy; PaigeStacey ${year}.`;
+
+document.getElementsByTagName('footer')[0].innerHTML = date;
+
+
 document.addEventListener("DOMContentLoaded", function () {
-    function formatDate(date) {
-        const options = { year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" };
-        return new Date(date).toLocaleString("en-US", options);
-    }
+    const clickthis = document.getElementById('clickthis');
 
-    const lastUpdatedElement = document.getElementById("lastUpdated");
+    Clickthis.addEventListener("click", function () {
 
-    const currentDate = new Date();
-    lastUpdatedElement.textContent = formatDate(currentDate);
+   alert('Welcome to my page!');
+
+  });
+
 });
+
 
 
 

@@ -10,6 +10,12 @@ nav {
     font-family: 'Courier New', Courier, monospace;
 }
 
+#clickthis {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .center {
     display: block;
     margin-left: auto;
