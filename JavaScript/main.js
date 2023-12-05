@@ -77,29 +77,32 @@ updatetxtcounterandStyle();
 var counterValue = 0;
 var numbersList = document.getElementById("numbers");
 
-function updatetxtcounterandList() {
+function updatxtcounterAndList() {
 
-  var txtcounter = document.getElementById("txt-counter");
+  var txtdisplay = document.getElementById("txt-display");
   txtdisplay.textContent = "Numbers: " + counterValue;
 
 
+  numbersList.innerHTML = '';
+
   for (let i = 1; i <= counterValue; i++) {
     var listItem = document.createElement("li");
-    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+    listItem.textContent = i % 2 === 0 ? 'even' ; 'odd';
     numbersList.appendChild(listItem);
+   
   }
- }
+}
 
  function incrementCounter() {
   counterValue++;
-  updatxtcounterandlist();
+  updatetxtcounterAndList();
 
  }
 
  var btncounter = document.getElementById("btn-counter");
  btncounter.addEventListener("click", incrementCounter);
 
- updatetxtcounterandList ();
+ updatetxtcounterAndList ();
 
 
 
