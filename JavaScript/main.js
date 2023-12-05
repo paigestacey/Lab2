@@ -6,9 +6,8 @@ var date = `&copy; PaigeStacey ${year}.`;
 
 document.getElementsByTagName('footer')[0].innerHTML = date;
 
-
- document.getElementById("clickthis").addEventListener("click", function() {
- alert("Welcome!");
+document.getElementById('clickthis').addEventListener('click', function() {
+  alert("Welcome!");
  
  });
 
