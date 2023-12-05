@@ -2,7 +2,17 @@
 //external.js
 
 //footer
+function updateFooterDate() {
+  var currentDate = new Date();
 
+  var formattedDate = currentDate.toLocaleDateString();
+
+  var currentDateElement = document.getElementById("currentDate");
+
+  currentDateElement.textContent = formattedDate;
+}
+
+updateFooterDate();
 
 //alert button
  function displayTextOnClick() {
