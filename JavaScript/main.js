@@ -1,18 +1,20 @@
 
+//external.js
+
 //footer
 
 
 //alert button
-function displayTextOnClick() {
+ function displayTextOnClick() {
 
   var displayElement = document.getElementById("displayText");
 
-  displayElement.textContent = "Welcome!";
+  displayElement.textContent = "Welcome to my portfolio Website! Feel free to take a look around. Here you can learn more about me! I hope you enjoy :)";
 }
 
 var clickthis = document.getElementById("clickthis");
 
-clickthis.addEventListener("click". displayTextOnClick);
+clickthis.addEventListener("click", displayTextOnClick);
 
 //hover button
 
