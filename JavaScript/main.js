@@ -28,6 +28,13 @@ clickthis.addEventListener("click", displayTextOnClick);
 
 //hover button
 
+document.getElementById('hover').onmouseover = () => {
+  document.getElementById('hover').innerText = 'Woahhh';
+};
+
+document.getElementById('hover').onmouseleave = () => {
+  document.getElementById('hover').innerText = 'Hover Over Me';
+};
 
 
 //Incrementing button

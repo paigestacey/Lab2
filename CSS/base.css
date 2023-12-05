@@ -71,6 +71,12 @@ tr:hover {background-color: aliceblue;}
     margin-right: auto;
 }
 
+#hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 h4 {
     text-align: center;
 }
