@@ -22,9 +22,9 @@ updateFooterDate();
   displayElement.textContent = "Welcome to my portfolio Website! Feel free to take a look around. Here you can learn more about me! I hope you enjoy :)";
 }
 
-var clickthis = document.getElementById("clickthis");
+var btnalert = document.getElementById("btn-alert");
 
-clickthis.addEventListener("click", displayTextOnClick);
+btnalert.addEventListener("click", displayTextOnClick);
 
 //hover button
 
@@ -38,6 +38,24 @@ document.getElementById('hover').onmouseleave = () => {
 
 
 //Incrementing button
+
+var counterValue = 0;
+
+function updateCounterDisplay() {
+    var counterElement = document.getElementById("btn-counter");
+
+    counterElement.textContent = "Number: " + counterValue;
+}
+
+function incrementCounter() {
+    counterValue++;
+
+    updateCounterDisplay();
+}
+
+var counterButton = document.getElementById("btn-counter");
+
+counterButton.addEventListener("click", incrementCounter);
 
 
 

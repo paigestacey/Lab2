@@ -10,7 +10,7 @@ nav {
     font-family: 'Courier New', Courier, monospace;
 }
 
-#clickthis {
+#btn-alert {
     display: block;
     margin-left: auto;
     margin-right: auto;
