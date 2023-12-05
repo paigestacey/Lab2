@@ -74,8 +74,32 @@ updatetxtcounterandStyle();
 
 
 //loops
+var counterValue = 0;
+var numbersList = document.getElementById("numbers");
+
+function updatetxtcounterandList() {
+
+  var txtcounter = document.getElementById("txt-counter");
+  txtdisplay.textContent = "Numbers: " + counterValue;
 
 
+  for (let i = 1; i <= counterValue; i++) {
+    var listItem = document.createElement("li");
+    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
+    numbersList.appendChild(listItem);
+  }
+ }
+
+ function incrementCounter() {
+  counterValue++;
+  updatxtcounterandlist();
+
+ }
+
+ var btncounter = document.getElementById("btn-counter");
+ btncounter.addEventListener("click", incrementCounter);
+
+ updatetxtcounterandList ();
 
 
 
