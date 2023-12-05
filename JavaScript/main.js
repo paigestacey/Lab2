@@ -10,8 +10,8 @@ document.getElementsByTagName('footer')[0].innerHTML = date;
 document.addEventListener("DOMContentLoaded", function () {
     const clickthis = document.getElementById('clickthis');
 
-  Clickthis.addEventListener("click", function () {
-   alert('Hello!');
+  document.getElementById("clickthis").addEventListener("click", function () {
+   alert("Hello!");
   });
 
 });
