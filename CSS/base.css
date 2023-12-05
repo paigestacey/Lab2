@@ -77,6 +77,11 @@ tr:hover {background-color: aliceblue;}
     margin-right: auto;
 }
 
+btn-counter {
+    background-color: aliceblue;
+    color: black;
+}
+
 h4 {
     text-align: center;
 }

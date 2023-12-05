@@ -37,33 +37,44 @@ document.getElementById('hover').onmouseleave = () => {
 };
 
 
-//Incrementing button
+//Incrementing button and else
 
 var counterValue = 0;
 
-function updateCounterDisplay() {
-    var counterElement = document.getElementById("btn-counter");
+function updatetxtcounterandStyle() {
+    var txtcounter = document.getElementById("txt-counter");
 
-    counterElement.textContent = "Number: " + counterValue;
-}
+    txtcounter.textContent = counterValue;
+
+    var btncounter = document.getElementById("btn-counter");
+
+    if (counterValue % 2 === 0) {
+     //even 
+      btncounter.style.backgroundColor = "black";
+      btncounter.style.color = "white";
+    } else {
+      //odd
+      btncounter.style.backgroundColor = "yellow";
+      btncounter.style.color = "black";
+    }
+  }
 
 function incrementCounter() {
+
     counterValue++;
 
-    updateCounterDisplay();
+    updatetxtcounterandStyle();
 }
 
-var counterButton = document.getElementById("btn-counter");
+var btncounter = document.getElementById("btn-counter");
 
-counterButton.addEventListener("click", incrementCounter);
+btncounter.addEventListener("click", incrementCounter);
 
-
-
-//if-else
-
+updatetxtcounterandStyle();
 
 
 //loops
+
 
 
 
