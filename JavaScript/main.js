@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     Clickthis.addEventListener("click", function () {
 
-  alert('Welcome to my page!');
+   alert('Welcome to my page!');
 
   });
 
