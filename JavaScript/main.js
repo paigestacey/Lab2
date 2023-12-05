@@ -59,7 +59,7 @@ function updatetxtcounterandStyle() {
     }
   }
 
-function incrementCounter() {
+  function incrementCounter() {
 
     counterValue++;
 
@@ -87,31 +87,16 @@ function updatxtcounterAndList() {
 
   for (let i = 1; i <= counterValue; i++) {
     var listItem = document.createElement("li");
-    listItem.textContent = i % 2 === 0 ? 'even' ; 'odd';
+    listItem.textContent = i % 2 === 0 ? 'even' : 'odd';
     numbersList.appendChild(listItem);
    
   }
-}
+
 
  function incrementCounter() {
   counterValue++;
-  updatetxtcounterAndList();
-
  }
 
  var btncounter = document.getElementById("btn-counter");
  btncounter.addEventListener("click", incrementCounter);
-
- updatetxtcounterAndList ();
-
-
-
-
-
-
-
-
-
-
-
-
+}
