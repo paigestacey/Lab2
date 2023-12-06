@@ -73,4 +73,16 @@ btncounter.addEventListener("click", incrementCounter);
 updatetxtcounterandStyle();
 
 
-//loops
+//forloops ???
+function updatetxtdisplayAndList(){
+
+var numbersList = document.getElementById("numbers");
+
+for (let i = initialValue; i <= stopValue; i = i + 1) {
+
+  var listItem = document.createElement("numbers");
+  listItem.textContent = i % 2 === 0 ? 'even' : 'odd' ;
+  numbersList.appendChild(numbers);
+}
+}
+updatetxtdisplayAndList();
